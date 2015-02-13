@@ -1,5 +1,6 @@
 # dfrobotbkit
 
+초보자들을 위한 DFRobot 비기너킷의 샘플 프로젝트
 Sample projects for DFRobot Arduino Beginners Kit
 
 project1 : Blinking a LED
