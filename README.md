@@ -1,8 +1,8 @@
 # dfrobotbkit
 
-Sample projects for DFRobot Arduino Beginners Kit
+Sample projects for DFRobot Arduino Beginners Kit--
 
-project1 : Blinking a LED
+project1 : Blinking a LED--
 project2 : SOS Beacon
 project3 : Traffic Light
 project4 : Fading Light
