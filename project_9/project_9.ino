@@ -17,6 +17,6 @@ void loop(){
      }else{                        // if the value is more than 1000，LED turns on
           digitalWrite(LED,HIGH);
      }
-     delay(10);                   
+     delay(100);                   
 }
 
