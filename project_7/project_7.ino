@@ -16,7 +16,7 @@ void loop(){
     val=analogRead(0);  
     data = (double) val * (5/10.24);  // convert the voltage to temperture
      
-    if(data>27){        // If the temperture is over 27 degree, buzzer will alarm.  
+    if(data>24){        // If the temperture is over 27 degree, buzzer will alarm.  
           for(int x=0; x<180; x++){
             sinVal = (sin(x*(3.1412/180)));
             toneVal = 2000+(int(sinVal*1000));
