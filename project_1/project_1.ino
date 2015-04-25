@@ -6,7 +6,8 @@
 */
 // Pin 10 has an LED connected on most Arduino boards.
 // give it a name:
-int ledPin = 10;
+int ledPin = 12;
+int timeOfDelay = 1000;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -16,9 +17,12 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
+  
+ // timeOfDelay = random(1000);
+  
         digitalWrite(ledPin,HIGH);        // turn the LED on (HIGH is the voltage level)
-        delay(1000);                      // wait for a second
+        delay(timeOfDelay);                      // wait for a second
         digitalWrite(ledPin,LOW);         // turn the LED off by making the voltage LOW
-        delay(1000);                      // wait for a second
+        delay(timeOfDelay);                      // wait for a second
 }
 
